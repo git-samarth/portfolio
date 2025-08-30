@@ -1,0 +1,111 @@
+// Color Palette
+:root {
+  // Primary Colors
+  --primary-900: #1e3a8a;
+  --primary-600: #3b82f6;
+  --primary-500: #60a5fa;
+  
+  // Secondary Colors
+  --secondary-600: #0d9488;
+  --accent-600: #7c3aed;
+  --success-500: #10b981;
+  
+  // Neutral Colors - Light Theme
+  --neutral-50: #f8fafc;
+  --neutral-100: #f1f5f9;
+  --neutral-200: #e2e8f0;
+  --neutral-300: #cbd5e1;
+  --neutral-400: #94a3b8;
+  --neutral-500: #64748b;
+  --neutral-600: #475569;
+  --neutral-700: #334155;
+  --neutral-800: #1e293b;
+  --neutral-900: #0f172a;
+  
+  // Theme Variables - Light Mode Default
+  --bg-primary: var(--neutral-50);
+  --bg-secondary: #ffffff;
+  --bg-tertiary: var(--neutral-100);
+  --text-primary: var(--neutral-900);
+  --text-secondary: var(--neutral-700);
+  --text-muted: var(--neutral-500);
+  --border-color: var(--neutral-200);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --card-bg: #ffffff;
+  
+  // Gradients
+  --gradient-primary: linear-gradient(135deg, var(--primary-900) 0%, var(--primary-600) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--secondary-600) 0%, var(--accent-600) 100%);
+  --gradient-hero: linear-gradient(135deg, var(--primary-900) 0%, var(--primary-600) 50%, var(--secondary-600) 100%);
+}
+
+[data-theme="dark"] {
+  --bg-primary: var(--neutral-900);
+  --bg-secondary: var(--neutral-800);
+  --bg-tertiary: var(--neutral-700);
+  --text-primary: var(--neutral-50);
+  --text-secondary: var(--neutral-200);
+  --text-muted: var(--neutral-400);
+  --border-color: var(--neutral-700);
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --card-bg: var(--neutral-800);
+}
+
+// Breakpoints
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+// Spacing
+$spacing: (
+  0: 0,
+  1: 0.25rem,
+  2: 0.5rem,
+  3: 0.75rem,
+  4: 1rem,
+  5: 1.25rem,
+  6: 1.5rem,
+  8: 2rem,
+  10: 2.5rem,
+  12: 3rem,
+  16: 4rem,
+  20: 5rem,
+  24: 6rem
+);
+
+// Typography
+$font-sizes: (
+  xs: 0.75rem,
+  sm: 0.875rem,
+  base: 1rem,
+  lg: 1.125rem,
+  xl: 1.25rem,
+  '2xl': 1.5rem,
+  '3xl': 1.875rem,
+  '4xl': 2.25rem,
+  '5xl': 3rem,
+  '6xl': 3.75rem
+);
+
+// Animations
+$transitions: (
+  fast: 150ms ease-in-out,
+  normal: 300ms ease-in-out,
+  slow: 500ms ease-in-out
+);
+
+// Z-index
+$z-index: (
+  dropdown: 1000,
+  sticky: 1020,
+  fixed: 1030,
+  modal-backdrop: 1040,
+  modal: 1050,
+  popover: 1060,
+  tooltip: 1070
+);
