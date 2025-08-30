@@ -65,31 +65,49 @@ import { AnimationService } from '../../core/services/animation.service';
           </div>
           
           <div class="hero-tech-stack hero-animate">
-            <div class="tech-label">Expertise in:</div>
-            <div class="tech-icons">
-              <div class="tech-icon" title="Microsoft Azure">
-                <i class="fab fa-microsoft"></i>
+            <div class="tech-grid">
+              <div class="tech-card stagger-item" data-tech="Azure" style="animation-delay: 1.5s">
+                <div class="tech-icon">
+                  <i class="fab fa-microsoft"></i>
+                </div>
+                <div class="tech-label">Azure</div>
               </div>
-              <div class="tech-icon" title="Amazon AWS">
-                <i class="fab fa-aws"></i>
+              
+              <div class="tech-card stagger-item" data-tech="AWS" style="animation-delay: 1.6s">
+                <div class="tech-icon">
+                  <i class="fab fa-aws"></i>
+                </div>
+                <div class="tech-label">AWS</div>
               </div>
-              <div class="tech-icon" title="Kubernetes">
-                <i class="fas fa-dharmachakra"></i>
+              
+              <div class="tech-card stagger-item" data-tech="Kubernetes" style="animation-delay: 1.7s">
+                <div class="tech-icon">
+                  <i class="fas fa-dharmachakra"></i>
+                </div>
+                <div class="tech-label">Kubernetes</div>
               </div>
-              <div class="tech-icon" title="Docker">
-                <i class="fab fa-docker"></i>
+              
+              <div class="tech-card stagger-item" data-tech="Docker" style="animation-delay: 1.8s">
+                <div class="tech-icon">
+                  <i class="fab fa-docker"></i>
+                </div>
+                <div class="tech-label">Docker</div>
               </div>
-              <div class="tech-icon" title="Terraform">
-                <i class="fas fa-layer-group"></i>
+              
+              <div class="tech-card stagger-item" data-tech="Terraform" style="animation-delay: 1.9s">
+                <div class="tech-icon">
+                  <i class="fas fa-layer-group"></i>
+                </div>
+                <div class="tech-label">Terraform</div>
+              </div>
+              
+              <div class="tech-card stagger-item" data-tech="DevOps" style="animation-delay: 2.0s">
+                <div class="tech-icon">
+                  <i class="fas fa-code-branch"></i>
+                </div>
+                <div class="tech-label">DevOps</div>
               </div>
             </div>
-          </div>
-        </div>
-        
-        <div class="scroll-indicator">
-          <div class="scroll-text">Scroll to explore</div>
-          <div class="scroll-arrow">
-            <i class="fas fa-chevron-down"></i>
           </div>
         </div>
       </div>
@@ -305,70 +323,108 @@ import { AnimationService } from '../../core/services/animation.service';
     }
 
     .hero-tech-stack {
-      .tech-label {
-        font-size: 0.9rem;
-        color: rgba(255, 255, 255, 0.7);
-        margin-bottom: 1rem;
-      }
+      margin-top: 2rem;
+    }
+    
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      max-width: 500px;
+      margin: 0 auto;
       
-      .tech-icons {
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-      }
-      
-      .tech-icon {
-        width: 50px;
-        height: 50px;
-        background: var(--glass-bg);
-        border: 1px solid var(--glass-border);
-        border-radius: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        backdrop-filter: blur(20px);
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        cursor: pointer;
-        
-        &:hover {
-          transform: translateY(-5px);
-          background: var(--gradient-primary);
-          box-shadow: 0 10px 30px var(--glow);
-        }
-        
-        i {
-          font-size: 1.2rem;
-        }
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+        max-width: 300px;
       }
     }
-
-    .scroll-indicator {
-      position: absolute;
-      bottom: 2rem;
-      left: 50%;
-      transform: translateX(-50%);
+    
+    .tech-card {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 16px;
+      padding: 1.5rem 1rem;
       text-align: center;
-      color: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(20px);
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      animation: float 6s ease-in-out infinite;
       
-      .scroll-text {
-        font-size: 0.8rem;
-        margin-bottom: 0.5rem;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--gradient-primary);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: -1;
       }
       
-      .scroll-arrow {
-        animation: bounce 2s infinite;
+      &:hover {
+        transform: translateY(-8px) scale(1.05);
+        box-shadow: 0 15px 40px rgba(99, 102, 241, 0.3);
+        animation-play-state: paused;
         
-        i {
-          font-size: 1.2rem;
+        &::before {
+          opacity: 0.1;
+        }
+        
+        .tech-icon {
+          transform: scale(1.1);
+          
+          i {
+            color: var(--cyan-400);
+          }
+        }
+        
+        .tech-label {
+          color: white;
         }
       }
+      
+      &:nth-child(1) { animation-delay: 0s; }
+      &:nth-child(2) { animation-delay: 1s; }
+      &:nth-child(3) { animation-delay: 2s; }
+      &:nth-child(4) { animation-delay: 3s; }
+      &:nth-child(5) { animation-delay: 4s; }
+      &:nth-child(6) { animation-delay: 5s; }
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    
+    .tech-card .tech-icon {
+      width: 48px;
+      height: 48px;
+      margin: 0 auto 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      
+      i {
+        font-size: 2rem;
+        color: rgba(255, 255, 255, 0.9);
+      }
+    }
+    
+    .tech-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.8);
+      transition: color 0.3s ease;
+      letter-spacing: 0.5px;
     }
 
-    @keyframes bounce {
-      0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-      40% { transform: translateY(-10px); }
-      60% { transform: translateY(-5px); }
-    }
+
 
     // Animation classes
     .hero-animate {
