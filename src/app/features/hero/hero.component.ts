@@ -33,9 +33,8 @@ import { AnimationService } from '../../core/services/animation.service';
           </div>
           
           <p class="hero-description hero-animate">
-            I architect cloud solutions that power AI-driven platforms serving 100+ enterprise customers. 
-            With 3 years of hands-on experience at TCS Digitate, I've mastered the art of building 
-            resilient, scalable infrastructure that handles millions of operations seamlessly.
+            Transforming business operations through intelligent cloud architecture and automation. 
+            Specializing in Kubernetes, multi-cloud deployments, and DevOps excellence that drives real impact.
           </p>
           
           <div class="hero-stats hero-animate">
@@ -45,22 +44,22 @@ import { AnimationService } from '../../core/services/animation.service';
             </div>
             <div class="stat-item">
               <div class="stat-number" data-target="100">0</div>
-              <div class="stat-label">Customers Served</div>
+              <div class="stat-label">Enterprise Customers</div>
             </div>
             <div class="stat-item">
-              <div class="stat-number" data-target="0">0</div>
-              <div class="stat-label">Downtime Migrations</div>
+              <div class="stat-number" data-target="99">0</div>
+              <div class="stat-label">Uptime Achievement</div>
             </div>
           </div>
           
           <div class="hero-buttons hero-animate">
             <a href="#projects" class="btn btn-primary magnetic">
-              <i class="fas fa-rocket"></i>
-              View My Work
+              <i class="fas fa-code-branch"></i>
+              View Projects
             </a>
             <a href="#contact" class="btn btn-secondary magnetic">
-              <i class="fas fa-envelope"></i>
-              Let's Connect
+              <i class="fas fa-paper-plane"></i>
+              Contact Me
             </a>
           </div>
           

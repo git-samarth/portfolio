@@ -293,14 +293,14 @@ export class ProjectsComponent {
     },
     {
       title: 'Cross-Cloud Data Migration',
-      description: 'Large-scale migration project from Azure to AWS with zero-downtime implementation.',
+      description: 'Large-scale migration project from Azure to AWS with minimal downtime implementation.',
       longDescription: 'Led a complex cross-cloud migration initiative involving multiple data sources, applications, and services. Implemented comprehensive migration strategies with full automation and performance optimization.',
       category: 'Migration',
       icon: 'fas fa-exchange-alt',
       technologies: ['AWS DMS', 'Azure Migrate', 'Striim', 'CloudFormation', 'Bash'],
       highlights: [
         'Successfully migrated 100+ TB of data with zero data loss',
-        'Achieved zero-downtime migration using blue-green deployment',
+        'Achieved minimal downtime migration using blue-green deployment',
         'Implemented automated rollback mechanisms for risk mitigation',
         'Conducted comprehensive performance analysis and optimization',
         'Reduced migration costs by 40% through strategic planning'

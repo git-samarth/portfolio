@@ -17,8 +17,8 @@ interface Skill {
     <section id="skills" class="section">
       <div class="container">
         <div class="skills-header reveal">
-          <h2 class="section-title">Technical Expertise</h2>
-          <p class="section-subtitle">Mastering the technologies that power modern cloud infrastructure</p>
+          <h2 class="section-title gradient-text">Technical Skills</h2>
+          <p class="section-subtitle">Technologies I use to build scalable, reliable cloud solutions</p>
         </div>
         
         <div class="skills-categories reveal">
@@ -307,42 +307,42 @@ export class SkillsComponent implements OnInit {
   skills: Skill[] = [
     {
       name: 'Microsoft Azure',
-      level: 'Expert',
+      level: 'Advanced',
       icon: 'fab fa-microsoft',
       category: 'Cloud Platforms',
-      description: 'Expert in Azure services, AKS, Logic Apps, and Azure DevOps'
+      description: 'AKS, Logic Apps, Azure DevOps, and resource management'
     },
     {
       name: 'Amazon Web Services',
-      level: 'Advanced',
+      level: 'Intermediate',
       icon: 'fab fa-aws',
       category: 'Cloud Platforms',
-      description: 'Proficient in EKS, EC2, S3, Lambda, and AWS networking'
+      description: 'EKS, EC2, S3, networking, and migration strategies'
     },
     {
       name: 'Kubernetes',
-      level: 'Expert',
+      level: 'Advanced',
       icon: 'fas fa-dharmachakra',
       category: 'DevOps & CI/CD',
-      description: 'Container orchestration, AKS, EKS, and cluster management'
+      description: 'Container orchestration, cluster management, and scaling'
     },
     {
       name: 'Docker',
       level: 'Advanced',
       icon: 'fab fa-docker',
       category: 'DevOps & CI/CD',
-      description: 'Containerization, multi-stage builds, and optimization'
+      description: 'Containerization, optimization, and deployment strategies'
     },
     {
       name: 'Terraform',
-      level: 'Expert',
+      level: 'Intermediate',
       icon: 'fas fa-layer-group',
       category: 'Infrastructure',
-      description: 'Infrastructure as Code, state management, and modules'
+      description: 'Infrastructure as Code and automated provisioning'
     },
     {
       name: 'Azure DevOps',
-      level: 'Expert',
+      level: 'Advanced',
       icon: 'fas fa-code-branch',
       category: 'DevOps & CI/CD',
       description: 'CI/CD pipelines, release management, and automation'
@@ -352,14 +352,14 @@ export class SkillsComponent implements OnInit {
       level: 'Advanced',
       icon: 'fas fa-terminal',
       category: 'Development',
-      description: 'Automation scripts, Azure management, and tooling'
+      description: 'Automation scripts and Azure resource management'
     },
     {
-      name: 'ARM Templates',
-      level: 'Advanced',
-      icon: 'fas fa-file-code',
+      name: 'RabbitMQ',
+      level: 'Intermediate',
+      icon: 'fas fa-exchange-alt',
       category: 'Infrastructure',
-      description: 'Azure Resource Manager templates and deployments'
+      description: 'Message queuing and distributed system communication'
     }
   ];
 

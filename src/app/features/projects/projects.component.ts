@@ -314,13 +314,13 @@ export class ProjectsComponent {
     },
     {
       title: 'Cross-Cloud Migration Platform',
-      description: 'Large-scale migration solution enabling seamless workload transitions between Azure and AWS with zero downtime.',
+      description: 'Large-scale migration solution enabling seamless workload transitions between Azure and AWS with minimal downtime.',
       impact: 'Successfully migrated 50+ workloads with zero data loss',
       category: 'Migration',
       icon: 'fas fa-exchange-alt',
       technologies: ['AWS DMS', 'Azure Migrate', 'Striim', 'CloudFormation', 'Bash'],
       highlights: [
-        'Achieved zero-downtime migration using blue-green deployment',
+        'Achieved minimal downtime migration using blue-green deployment',
         'Implemented automated rollback mechanisms for risk mitigation',
         'Conducted comprehensive performance analysis and optimization',
         'Reduced migration costs by 40% through strategic planning'

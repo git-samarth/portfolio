@@ -35,7 +35,7 @@ import { CommonModule } from '@angular/common';
                 <p>
                   Leading cloud infrastructure design and implementation for AI-powered SaaS platforms 
                   serving 100+ enterprise customers. Architecting resilient, scalable solutions that 
-                  handle millions of operations with zero-downtime deployments.
+                  handle millions of operations with minimal downtime deployments.
                 </p>
               </div>
               
@@ -57,8 +57,8 @@ import { CommonModule } from '@angular/common';
                       <i class="fas fa-exchange-alt"></i>
                     </div>
                     <div class="achievement-text">
-                      <strong>Zero-Downtime Migrations</strong>
-                      <p>Led seamless Azure→AWS migrations with zero data loss</p>
+                      <strong>Minimal Downtime</strong>
+                      <p>Led seamless Azure→AWS migrations with minimal downtime</p>
                     </div>
                   </div>
                   

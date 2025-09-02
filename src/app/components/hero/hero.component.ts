@@ -24,7 +24,7 @@ import { CommonModule } from '@angular/common';
             </div>
             
             <p class="hero-description animate-fadeInUp" style="animation-delay: 0.6s">
-              Results-driven Cloud Engineer with 3 years of experience designing, implementing, 
+              Results-driven Cloud Engineer with 3+ years of experience designing, implementing, 
               and managing scalable, secure, and highly available cloud infrastructure on Azure and AWS.
             </p>
             

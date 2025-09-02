@@ -18,7 +18,7 @@ import { CommonModule } from '@angular/common';
             <div class="about-intro">
               <h3>Cloud Engineer & DevOps Specialist</h3>
               <p>
-                I'm a passionate Cloud Engineer with 3 years of hands-on experience in designing, 
+                I'm a passionate Cloud Engineer with 3+ years of hands-on experience in designing, 
                 implementing, and managing scalable cloud infrastructure. My expertise spans across 
                 Azure and AWS platforms, with a strong focus on automation, containerization, and 
                 CI/CD practices.

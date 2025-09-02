@@ -9,8 +9,8 @@ import { CommonModule } from '@angular/common';
     <section id="about" class="section">
       <div class="container">
         <div class="about-header reveal">
-          <h2 class="section-title">About Me</h2>
-          <p class="section-subtitle">Passionate about building the future of cloud infrastructure</p>
+          <h2 class="section-title gradient-text">About Me</h2>
+          <p class="section-subtitle">Building scalable cloud solutions that drive business transformation</p>
         </div>
         
         <div class="about-content">
@@ -18,14 +18,14 @@ import { CommonModule } from '@angular/common';
             <div class="story-card glass">
               <h3>My Journey</h3>
               <p>
-                From a curious engineering student to a seasoned Cloud Engineer at TCS Digitate, 
-                my journey has been driven by an insatiable appetite for solving complex infrastructure challenges. 
-                I specialize in architecting resilient, scalable cloud solutions that empower businesses to thrive in the digital age.
+                As a Cloud Engineer at Digitate (TCS Venture), I transform complex business challenges 
+                into elegant, scalable cloud solutions. My passion lies in designing infrastructure that 
+                not only meets today's demands but scales seamlessly for tomorrow's growth.
               </p>
               <p>
-                Based in Pune, India, I've had the privilege of working with cutting-edge technologies 
-                and contributing to platforms that serve millions of users worldwide. My expertise spans 
-                across multi-cloud environments, with deep knowledge in Azure, AWS, and modern DevOps practices.
+                With hands-on experience in Kubernetes, multi-cloud architectures, and DevOps automation, 
+                I've helped deliver solutions serving 100+ enterprise customers. I believe in building 
+                systems that are not just functional, but resilient, secure, and maintainable.
               </p>
             </div>
           </div>
