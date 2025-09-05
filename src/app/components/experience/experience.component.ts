@@ -378,7 +378,7 @@ export class ExperienceComponent {
       ],
       technologies: [
         'Azure', 'AWS', 'Kubernetes', 'Docker', 'Terraform', 'Azure DevOps', 
-        'Logic Apps', 'PowerShell', 'Bash', 'RabbitMQ', 'ARM Templates'
+        'Logic Apps', 'Bash', 'RabbitMQ', 'ARM Templates'
       ]
     }
   ];

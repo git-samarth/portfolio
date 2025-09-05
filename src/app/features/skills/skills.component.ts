@@ -348,11 +348,11 @@ export class SkillsComponent implements OnInit {
       description: 'CI/CD pipelines, release management, and automation'
     },
     {
-      name: 'PowerShell',
+      name: 'Bash',
       level: 'Advanced',
       icon: 'fas fa-terminal',
       category: 'Development',
-      description: 'Automation scripts and Azure resource management'
+      description: 'Shell scripting and Linux system automation'
     },
     {
       name: 'RabbitMQ',

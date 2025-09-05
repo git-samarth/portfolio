@@ -219,7 +219,7 @@ export class SkillsComponent implements OnInit {
     { name: 'Azure Migrate', level: 80, icon: 'fas fa-exchange-alt', category: 'Infrastructure' },
     
     // Development
-    { name: 'PowerShell', level: 85, icon: 'fas fa-terminal', category: 'Development' },
+    { name: 'Bash', level: 85, icon: 'fas fa-terminal', category: 'Development' },
     { name: 'Bash Scripting', level: 80, icon: 'fas fa-code', category: 'Development' },
     { name: 'GitHub', level: 85, icon: 'fab fa-github', category: 'Development' },
     { name: 'RabbitMQ', level: 70, icon: 'fas fa-rabbit', category: 'Development' }

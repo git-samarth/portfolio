@@ -282,7 +282,7 @@ export class ProjectsComponent {
       longDescription: 'Developed a robust platform reliability system that automates Terraform workflows for rapid scalability and implements comprehensive monitoring solutions. The system includes cost optimization features and self-healing mechanisms.',
       category: 'Infrastructure',
       icon: 'fas fa-cogs',
-      technologies: ['Terraform', 'Azure DevOps', 'PowerShell', 'ARM Templates', 'Logic Apps'],
+      technologies: ['Terraform', 'Azure DevOps', 'Bash', 'ARM Templates', 'Logic Apps'],
       highlights: [
         'Automated Terraform workflows reducing deployment time by 70%',
         'Built comprehensive monitoring dashboards for real-time insights',

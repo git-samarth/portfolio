@@ -93,7 +93,7 @@ import { CommonModule } from '@angular/common';
                   <span class="tech-tag">Terraform</span>
                   <span class="tech-tag">Azure DevOps</span>
                   <span class="tech-tag">Docker</span>
-                  <span class="tech-tag">PowerShell</span>
+                  <span class="tech-tag">Bash</span>
                   <span class="tech-tag">Logic Apps</span>
                 </div>
               </div>

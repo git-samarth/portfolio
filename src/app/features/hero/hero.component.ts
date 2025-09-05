@@ -47,8 +47,8 @@ import { AnimationService } from '../../core/services/animation.service';
               <div class="stat-label">Enterprise Customers</div>
             </div>
             <div class="stat-item">
-              <div class="stat-number" data-target="99">0</div>
-              <div class="stat-label">99% Uptime Achievement</div>
+              <div class="stat-number" data-target="0">0</div>
+              <div class="stat-label">Touch Deployments</div>
             </div>
           </div>
           

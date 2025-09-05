@@ -304,7 +304,7 @@ export class ProjectsComponent {
       impact: '95% reduction in manual interventions and 99.9% uptime achievement',
       category: 'Infrastructure',
       icon: 'fas fa-cogs',
-      technologies: ['Terraform', 'Azure DevOps', 'PowerShell', 'ARM Templates', 'Logic Apps'],
+      technologies: ['Terraform', 'Azure DevOps', 'Bash', 'ARM Templates', 'Logic Apps'],
       highlights: [
         'Automated Terraform workflows reducing deployment time by 70%',
         'Built comprehensive monitoring dashboards for real-time insights',
@@ -332,7 +332,7 @@ export class ProjectsComponent {
       impact: 'Automated 100% of customer deployments, reducing time from days to hours',
       category: 'Automation',
       icon: 'fas fa-rocket',
-      technologies: ['Logic Apps', 'PowerShell', 'Kubernetes', 'Azure DevOps', 'ARM Templates'],
+      technologies: ['Logic Apps', 'Bash', 'Kubernetes', 'Azure DevOps', 'ARM Templates'],
       highlights: [
         'Eliminated manual deployment processes entirely',
         'Reduced customer onboarding time by 90%',
